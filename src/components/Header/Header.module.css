@@ -1,0 +1,35 @@
+.mainContainer {
+  @apply bg-white;
+}
+
+.container {
+  @apply flex bg-white items-center px-4 justify-between h-20 border-b-[1px] border-[#808080] max-w-[1440px] mx-auto lg:border-0;
+}
+
+.companyTitle {
+  @apply leading-6 tracking-wide text-[23px];
+}
+
+.navContainer {
+  @apply absolute lg:sticky  right-[0%] bottom-[0%] bg-white w-full h-full flex justify-center items-center;
+}
+
+.linkContainer {
+  @apply lg:flex-row leading-5 tracking-wide text-[17px] text-center mt-[7px];
+}
+
+.link {
+  @apply lg:mr-2 mb-4 lg:mb-0 text-[25px] lg:text-[20px];
+}
+
+.link > li {
+  @apply transition-all hover:text-[28px] lg:hover:text-[23px];
+}
+
+.img {
+  @apply lg:hidden ease-out duration-300;
+}
+
+.closeIcon {
+  @apply relative;
+}
