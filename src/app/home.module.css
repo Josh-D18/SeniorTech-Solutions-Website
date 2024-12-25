@@ -1,0 +1,158 @@
+.container {
+}
+
+/* Hero Styling */
+.heroContainer {
+  @apply bg-custom-gradient-with-image bg-cover bg-center w-full h-[800px]  flex flex-col items-center justify-center bg-no-repeat m-auto;
+}
+
+.heroTitle,
+.heroDescription {
+  @apply text-white text-center;
+}
+
+.heroContentContainer {
+  @apply max-w-[520px] flex flex-col items-center mx-4;
+}
+
+.heroTitle {
+  @apply text-[25px]  mb-3 text-nowrap md:text-[28px] lg:text-[36px] 2xl:text-[45px];
+}
+
+.heroDescription {
+  @apply text-[17px] text-pretty mb-3 lg:text-nowrap  lg:text-[22px] 2xl:text-[24px];
+}
+
+.btn {
+  @apply text-white bg-[#656062] rounded-md py-3 px-4 my-3 hover:brightness-75;
+}
+
+.btnSecondary {
+  @apply text-black bg-white;
+}
+
+/* Info Styling */
+.infoContainer {
+  @apply flex flex-col px-4 pt-20 pb-2 md:flex-row max-w-[1440px] m-auto;
+}
+
+.infoContentContainer {
+  @apply max-w-[528px] m-auto md:text-left md:pr-9 lg:max-w-[650px] 2xl:max-w-[800px] 2xl:pr-0;
+}
+
+.infoTitle {
+  @apply text-[23px] leading-6 tracking-wide font-bold text-black mb-3 md:text-[28px] 2xl:text-[35px];
+}
+
+.infoDescription {
+  @apply text-[18px] leading-6 tracking-wide font-light text-black mb-6 md:text-[22px] md:leading-8 2xl:text-[28px] 2xl:leading-10;
+}
+
+.infoImg {
+  @apply max-w-[450px] m-auto w-full h-full outline outline-2 outline-offset-4 outline-[#4a4a4a] rounded-md md:w-80;
+}
+
+/* Products Styling */
+
+.productContainer {
+  @apply items-center px-4 pt-20 pb-2 max-w-[1440px] xl:m-auto;
+}
+
+.productContentContainer {
+  @apply max-w-[476px] md:max-w-[340px] mb-5 lg:max-w-[320px];
+}
+
+.products {
+  @apply grid grid-cols-1 justify-items-center md:grid-cols-2 md:max-w-[1120px] items-center mx-auto lg:grid-cols-3 lg:max-w-[1440px];
+}
+
+.productsTitle {
+  @apply text-[28px] font-medium leading-6 tracking-wide text-black pb-4;
+}
+
+.productDescription {
+  @apply text-[18px] font-normal leading-6 tracking-wide text-black pb-4;
+}
+
+/* CTA Styles */
+
+.ctaContainer {
+  @apply bg-custom-gradient-with-image-cta bg-no-repeat bg-cover bg-center w-full m-auto flex flex-col items-center justify-center p-4;
+}
+
+.contentContainer {
+  @apply py-4 text-center max-w-[580px];
+}
+
+.ctaTitle {
+  @apply text-white text-[24px] font-medium;
+}
+
+.ctaTitleSecondary {
+  @apply text-white text-[28px] font-semibold leading-6 tracking-[0.7px];
+}
+
+.ctaDescription {
+  @apply text-white px-4 font-light leading-5 tracking-[0.9px] mb-4;
+}
+
+/* Footer */
+.footerContainer {
+  @apply bg-white;
+}
+
+.underline {
+  @apply border-2 md:border-[3px] border-black h-[2px] w-32 mb-4 mt-2;
+}
+
+.footerMainContainer {
+  @apply flex flex-col md:flex-row max-w-[500px] m-auto p-4 md:max-w-[1200px] md:justify-center md:items-center;
+}
+
+.footerInfoContainer {
+  @apply flex items-center flex-col mb-9 w-full max-w-[580px] md:items-start md:mr-14 lg:mr-28;
+}
+
+.imgLogo {
+  @apply w-[170px] h-auto md:mr-4;
+}
+
+.imgIcon {
+  @apply max-w-[27px] max-h-[25px] w-full h-full;
+}
+
+.footerIconContainer {
+  @apply flex mb-2 items-center;
+}
+
+.footerInfoDescription {
+  @apply text-center md:text-left text-[24px] leading-8 tracking-[0.7px];
+}
+
+.spacing {
+  @apply md:ml-[22px];
+}
+
+.footerTitle {
+  @apply text-[23px] font-bold leading-5 tracking-[1.2px] md:text-[28px] lg:text-[32px];
+}
+
+.footerContactContainer {
+  @apply mb-5 h-[174px] w-full;
+}
+
+.footerContactListContainer {
+  @apply flex flex-col;
+}
+
+.footerText {
+  @apply pl-3 text-[18px] leading-7 tracking-wide;
+}
+
+.bottomFooter {
+  @apply bg-black h-[82px] py-[24px] flex items-center justify-center;
+}
+
+.footerCopyright {
+  @apply text-white;
+}

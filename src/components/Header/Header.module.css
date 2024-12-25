@@ -1,5 +1,5 @@
 .mainContainer {
-  @apply bg-white;
+  @apply bg-white lg:sticky lg:top-0;
 }
 
 .container {
@@ -11,7 +11,7 @@
 }
 
 .navContainer {
-  @apply absolute lg:sticky  right-[0%] bottom-[0%] bg-white w-full h-full flex justify-center items-center;
+  @apply absolute  right-[0%] bottom-[0%] bg-white w-full h-full flex justify-center items-center overflow-y-hidden;
 }
 
 .linkContainer {
@@ -28,6 +28,10 @@
 
 .img {
   @apply lg:hidden ease-out duration-300;
+}
+
+.logo {
+  @apply w-[90px] h-[80px];
 }
 
 .closeIcon {

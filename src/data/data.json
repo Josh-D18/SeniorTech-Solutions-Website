@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Creative Companion",
+    "description": "A compact device that lets you create and connect on the go.",
+    "miniDescription": "Portable and intuitive for creativity anywhere.",
+    "price": 199.99,
+    "imageUrl": "/assets/images/creative-companion.jpeg",
+    "features": ["Portable", "Intuitive Interface", "Cloud-Enabled"],
+    "availability": "In Stock"
+  },
+  {
+    "id": 2,
+    "title": "Cloud Notebook",
+    "description": "An easy-to-use digital notebook for keeping your ideas organized.",
+    "miniDescription": "Your go-to digital notebook for seamless organization.",
+    "price": 249.99,
+    "imageUrl": "/assets/images/cloud-notebook.png",
+    "features": ["Large Display", "Syncs with Cloud", "Long Battery Life"],
+    "availability": "In Stock"
+  },
+  {
+    "id": 3,
+    "title": "Memory Keeper",
+    "description": "A simple device for storing and sharing precious memories.",
+    "miniDescription": "Securely store and share your favorite memories.",
+    "price": 149.99,
+    "imageUrl": "/assets/images/memory-keeper.png",
+    "features": [
+      "Photo and Video Storage",
+      "Easy Sharing",
+      "Secure Encryption"
+    ],
+    "availability": "Out of Stock"
+  },
+  {
+    "id": 4,
+    "title": "Connection Hub",
+    "description": "Your gateway to staying connected with family and friends.",
+    "miniDescription": "Stay in touch with loved ones effortlessly.",
+    "price": 129.99,
+    "imageUrl": "/assets/images/connection-hub.png",
+    "features": ["Video Calls", "Messaging", "Customizable Settings"],
+    "availability": "In Stock"
+  },
+  {
+    "id": 5,
+    "title": "Nostalgia Tablet",
+    "description": "A tablet designed to bring back the joy of the past with modern tech.",
+    "miniDescription": "Retro design meets modern functionality.",
+    "price": 299.99,
+    "imageUrl": "/assets/images/nostalgia-tablet.jpeg",
+    "features": ["Large Screen", "User-Friendly", "Retro Design"],
+    "availability": "In Stock"
+  },
+  {
+    "id": 6,
+    "title": "Care Link",
+    "description": "A wearable device for staying in touch and tracking health on the go.",
+    "miniDescription": "Wearable tech for health tracking and communication.",
+    "price": 179.99,
+    "imageUrl": "/assets/images/care-link.jpg",
+    "features": ["Health Monitoring", "Lightweight Design", "Emergency Alerts"],
+    "availability": "In Stock"
+  },
+  {
+    "id": 7,
+    "title": "Home Connect Station",
+    "description": "A home base for managing devices and staying connected.",
+    "miniDescription": "Centralize your tech with ease.",
+    "price": 229.99,
+    "imageUrl": "/assets/images/home-connect-station.jpg",
+    "features": ["Multi-Device Sync", "Voice Commands", "Cloud Backup"],
+    "availability": "In Stock"
+  },
+  {
+    "id": 8,
+    "title": "Story Teller",
+    "description": "A device that helps you document and share your life stories.",
+    "miniDescription": "Capture and share your unique life stories.",
+    "price": 159.99,
+    "imageUrl": "/assets/images/story-teller.jpg",
+    "features": ["Voice Recording", "Easy Sharing", "Nostalgic Design"],
+    "availability": "Out of Stock"
+  },
+  {
+    "id": 9,
+    "title": "Vision Hub",
+    "description": "A device that enhances accessibility with voice and visual aids.",
+    "miniDescription": "Accessibility tools for every need.",
+    "price": 199.99,
+    "imageUrl": "/assets/images/vision-hub.jpg",
+    "features": [
+      "Voice Assistance",
+      "Screen Magnification",
+      "Customizable Features"
+    ],
+    "availability": "In Stock"
+  },
+  {
+    "id": 10,
+    "title": "Travel Creator",
+    "description": "A portable tool for creating and sharing while on the go.",
+    "miniDescription": "Lightweight and powerful for creative travelers.",
+    "price": 189.99,
+    "imageUrl": "/assets/images/travel-creator.jpg",
+    "features": ["Lightweight", "Battery Efficient", "Syncs with All Devices"],
+    "availability": "In Stock"
+  }
+]
