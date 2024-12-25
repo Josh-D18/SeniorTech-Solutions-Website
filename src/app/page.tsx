@@ -5,7 +5,7 @@ import Image from "next/image";
 import infoImage from "/public/assets/images/landingpageinfoimage.png";
 import data from "@/data/data.json";
 import Card from "@/components/Card/Card";
-import logo from "/public/assets/images/TrueFlowLogoV2.png";
+import logo from "/public/assets/images/trueflowlogoV2.png";
 import location from "/public/assets/images/location.png";
 import email from "/public/assets/images/email.png";
 import phone from "/public/assets/images/phone.png";
